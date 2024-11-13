@@ -15,13 +15,16 @@ img = cv.imread('photos/f16.jpg')
 # img_gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 # cv.imshow("Grayscale", img_gray)
 
-# Blur
-img_blur = cv.GaussianBlur(img, (7,7), cv.BORDER_DEFAULT)
-cv.imshow("Blur", img_blur)
+# # Blur
+# img_blur = cv.GaussianBlur(img, (7,7), cv.BORDER_DEFAULT)
+# cv.imshow("Blur", img_blur)
 
-# Edge 
-img_edge = cv.Canny(img_blur, 125, 175)
-cv.imshow("Edges",img_edge)
+# # Edge 
+# img_edge = cv.Canny(img_blur, 125, 175)
+# cv.imshow("Edges",img_edge)
+
+
+print(type(img))
 
 
 
